@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="72dccef57355443c9ff4cd61f8d9b6b1" Name="Diagram1">
+        <EntityTypeShape EntityType="tap4glamModel.administrator" Width="1.5" PointX="6" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.adresse" Width="1.5" PointX="0.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.blog" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.candidature" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.categorie" Width="1.5" PointX="1.5" PointY="36.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.categorie_blog" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.change_request" Width="1.5" PointX="8.25" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.client" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.code_promo" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.code_reduction" Width="1.5" PointX="8.25" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.code_vip" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.commande" Width="1.5" PointX="13.5" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.commande_item" Width="1.5" PointX="11.25" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.commande_option_item" Width="1.5" PointX="10.5" PointY="29.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.contact" Width="1.5" PointX="6.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.etat_reservation" Width="1.5" PointX="0.75" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.facture" Width="1.5" PointX="15.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.favoris" Width="1.5" PointX="11.25" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.file" Width="1.5" PointX="6.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.fournisseur" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.geo_zone" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.horaires_prestation" Width="1.5" PointX="0.75" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.media_object" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.migration_versions" Width="1.5" PointX="8.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.mode_paiement" Width="1.5" PointX="11.25" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.module" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.newsletter" Width="1.5" PointX="8.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.option_service" Width="1.5" PointX="1.5" PointY="40.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.pack" Width="1.5" PointX="10.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.paiement" Width="1.5" PointX="13.5" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.parrainage" Width="1.5" PointX="13.5" PointY="25.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.prestataire" Width="1.5" PointX="13.5" PointY="30" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.prestataire_reviews" Width="1.5" PointX="15.75" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.prix_service" Width="1.5" PointX="4.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.promo" Width="1.5" PointX="0.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.promotion" Width="1.5" PointX="1.5" PointY="44.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.region" Width="1.5" PointX="10.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.reservation" Width="1.5" PointX="3" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.reservation_item" Width="1.5" PointX="5.25" PointY="30.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.reservation_option_item" Width="1.5" PointX="8.25" PointY="27" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.reservation_pack" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.review" Width="1.5" PointX="11.25" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.service" Width="1.5" PointX="0.75" PointY="29.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.sous_categorie" Width="1.5" PointX="12.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.sponsor" Width="1.5" PointX="8.25" PointY="32.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.traduction" Width="1.5" PointX="12.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.user" Width="1.5" PointX="6" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.user_device" Width="1.5" PointX="8.25" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.user_review" Width="1.5" PointX="18.75" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tap4glamModel.visits" Width="1.5" PointX="6.75" PointY="11.75" IsExpanded="true" />
+        <AssociationConnector Association="tap4glamModel.FK_CB902D363338F50D" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_42C84955F5B7AF75" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_8D93D649CD4FDB16" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_E19D9AD2BCF5E72D" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_CB902D3619EB6921" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_CB902D36B83297E7" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_1DA22C50A76ED395" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_6EEAA67DB1442F7" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_6EEAA67D438F5B63" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_6EEAA67D70F2D188" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_6EEAA67DDC2902E0" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_747724FD82EA2E54" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_FE86641082EA2E54" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_747724FD7F2DEE08" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_747724FDB83297E7" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_BEE40A9C1FAF0412" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_42C8495571B06122" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_8933C43228CBAD30" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_8933C4329D86650F" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_42C849559A25E124" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_B1DC7A1E77E5854A" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_3B7952A1FF552725" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_195BAFB512F7FB51" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_195BAFB5A76ED395" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_195BAFB5A832C1C9" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_1C119AFB70574616" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_794381C62A9C2DB9" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_FC1C20F62A9C2DB9" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_FC1C20F670574616" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_E19D9AD2139DF194" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_3B7952A1B83297E7" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_42C84955ED5CA9E6" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_794381C63D987AC0" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_922E876B83297E7" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_794381C6AC3E87C0" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_818CC9D4A76ED395" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_1C119AFBAC3E87C0" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.FK_6C7DADB3A76ED395" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.favoris_prestataire" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.favoris_user" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.option_service_promotion" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.reservation_option_service" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.service_option_service" ManuallyRouted="false" />
+        <AssociationConnector Association="tap4glamModel.user_adresse" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
